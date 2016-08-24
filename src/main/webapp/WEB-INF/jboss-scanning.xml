@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Add this as spring doc http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/aop.html#aop-aj-ltw recommended it
+	Note that on JBoss 6.x, the app server scanning needs to be disabled to prevent it from loading the classes before the application actually starts. 
+	A quick workaround is to add to your artifact a file named WEB-INF/jboss-scanning.xml with the following content: -->
+<scanning xmlns="urn:jboss:scanning:1.0">
+
+</scanning>
